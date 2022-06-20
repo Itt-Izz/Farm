@@ -1,6 +1,6 @@
 <?php include 'inc/nav.php'; ?>
 <div class="tab-content col-sm-10" id="myhome">
-    <div class="container-fluid">
+    <div class="container-fluid bg-success">
         <div class="pull-right">
             <a href=""><i class="glyphicon glyphicon-question-sign"></i>itt.thuot@gmail.com</a>
             <a href=""> <img src="assets/img/av2.png" class="circle" style="width:30px; margin-left: 20px;">Isaac
@@ -41,15 +41,8 @@
             <hr class="b">
         </div>
         <div class="row col-sm-12">
-            <!-- <div class="col-sm-2">
-                    <h5>Acting Groups:</h5>
-                    <p>100 Broilers</p> 
-                    <p>80 Layers</p> 
-                    <p>50 Improved</p>
-                </div> -->
-            <!-- <div class="col-sm-10"> -->
             <div class="col-sm-6 d-flex bt">
-                <canvas id="myChart" width="640">/canvas>
+                <canvas id="myChart" width="640"></canvas>
             </div>
             <div class=" col-sm-6 d-flex bl bt">
                 <canvas id="myPie" height="80vh" width="100vw"></canvas>
@@ -62,6 +55,8 @@
     <?php  include 'production.php'; ?>
     <?php  include 'view.php'; ?>
     <?php  include 'vaccine.php'; ?>
+    <?php  include 'income.php'; ?>
+    <?php  include 'expence.php'; ?>
     <?php  include 'motality.php'; ?>
     <?php  include 'types.php'; ?>
     <?php  include 'medicine.php'; ?>

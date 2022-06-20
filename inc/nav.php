@@ -34,7 +34,7 @@
             <ul class="nav nav-pills nav-stacked ">
                 <li class="active"><a data-toggle="tab" href="#home"><i class="glyphicon glyphicon-tent"></i>
                         Dashboard</a></li>
-                <li><a data-toggle=" tab" href="#new"><i class="glyphicon glyphicon-gift"></i> Production</a></li>
+                <li><a data-toggle="tab" href="#new"><i class="glyphicon glyphicon-gift"></i> Production</a></li>
                 <li><a data-toggle="tab" href="#view"><i class="glyphicon glyphicon-piggy-bank"></i> Flock</a></li>
                 <li><a data-toggle="tab" href="#vac"><i class="glyphicon glyphicon-new-window"></i> Update</a></li>
                 <li><a data-toggle="tab" href="#inc"><i class="glyphicon glyphicon-briefcase"></i> Income</a></li>

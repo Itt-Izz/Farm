@@ -39,8 +39,5 @@
             <input class="btn btn-primary" type="submit" value="Save">
             <a href="#" class="btn btn-default">Cancel</a>
         </div>
-        <div class="row col-sm-12">
-            <hr class="b">
-        </div>
     </div>
 </div>

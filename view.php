@@ -4,30 +4,11 @@
         <div class="col-sm-2">
             <h4><strong> Flock</strong></h4>
         </div>
-        <div class="col-sm-8"></div>
-        <div class="col-sm-2"><button class="btn btn-primary btn-xs pull-right" id="btn-Flock">Add new</button>
+        <div class="col-sm-7"></div>
+        <div class="col-sm-2"><button class="btn btn-primary btn-xs pull-right" id="btn-Flock">Add new Flock</button>
         </div>
-    </div>
-    <div class="row col-sm-12">
-        <hr class="b">
-    </div>
-    <div class="row col-sm-12">
-        <div class="col-sm-2">
-            <button class="btn btn-primary btn-sm"><i class="glyphicon glyphicon-plus">Egg_Collection</i></button>
-        </div>
-        <div class="col-sm-2">
-            <button class="btn btn-primary btn-sm"><i class="glyphicon glyphicon-plus">Feed_Purchase</i></button>
-
-        </div>
-        <div class="col-sm-2">
-            <button class="btn btn-primary btn-sm"><i class="glyphicon glyphicon-plus">Bird_Weight</i></button>
-
-        </div>
-        <div class="col-sm-2">
-            <button class="btn btn-primary btn-sm"><i class="glyphicon glyphicon-plus">Motality</i></button>
-        </div>
-        <div class="col-sm-3">
-            <button class="btn btn-default btn-sm pull-right">Print Flock List</button>
+        <div class="col-sm-1">
+            <button class="btn btn-default btn-sm pull-right">Print</button>
         </div>
     </div>
     <div class="row col-sm-12">
@@ -68,3 +49,4 @@
         </table>
     </div>
 </div>
+<?php include 'addFlock.php';?>
