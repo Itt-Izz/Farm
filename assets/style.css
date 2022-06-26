@@ -16,6 +16,15 @@
   border-left: 1px solid #145DA0;
 }
 
+.bg-c {
+  background-color: #f7f8f9;
+  padding: 15px;
+}
+
+.clearfix {
+  clear: both;
+}
+
 
 
        /* On small screens, set height to 'auto' for the grid */

@@ -1,8 +1,8 @@
-<div class="tab-content  tab-pane fade" id="med">
+<div class="tab-content  tab-pane fade" id="setExp">
     <div class="row col-sm-12">
         <br>
         <div class="col-sm-5">
-            <h4><strong>List of Vaccines and Medication</strong></h4>
+            <h4><strong>Expense</strong></h4>
         </div>
         <div class="col-sm-4"></div>
         <div class="col-sm-2"><button class="btn btn-primary btn-sm pull-right" id="btn-Income">Add new</button>

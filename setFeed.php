@@ -1,11 +1,11 @@
-<div class="tab-content  tab-pane fade" id="med">
+<div class="tab-content  tab-pane fade" id="setFeed">
     <div class="row col-sm-12">
         <br>
         <div class="col-sm-5">
-            <h4><strong>List of Vaccines and Medication</strong></h4>
+            <h4><strong>Feed</strong></h4>
         </div>
         <div class="col-sm-4"></div>
-        <div class="col-sm-2"><button class="btn btn-primary btn-sm pull-right" id="btn-Income">Add new</button>
+        <div class="col-sm-2"><button class="btn btn-primary btn-sm pull-right" id="btn-feed">Add new</button>
         </div>
         <div class="col-sm-1">
             <button class="btn btn-default btn-sm pull-right">Print</button>
@@ -15,7 +15,7 @@
         <hr class="b">
     </div>
     <div class="row col-sm-12">
-        <table id="table_med" class="table table-hover">
+        <table class="table table-hover">
             <thead>
                 <tr>
                     <th>Name</th>

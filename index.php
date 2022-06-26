@@ -1,11 +1,11 @@
 <?php include 'inc/nav.php'; ?>
 <div class="tab-content col-sm-10" id="myhome">
-    <div class="container-fluid bg-success">
+    <div class="container-fluid bg-c">
         <div class="pull-right">
             <a href=""><i class="glyphicon glyphicon-question-sign"></i>itt.thuot@gmail.com</a>
             <a href=""> <img src="assets/img/av2.png" class="circle" style="width:30px; margin-left: 20px;">Isaac
                 Thuo</i></a>
-        </div>
+        </div><br>
     </div>
     <div class="tab-pane fade in active" id="home">
         <div class="row col-sm-12">
@@ -59,8 +59,14 @@
     <?php  include 'expence.php'; ?>
     <?php  include 'motality.php'; ?>
     <?php  include 'types.php'; ?>
+    <?php  include 'financialReport.php'; ?>
+    <?php  include 'productionReport.php'; ?>
+    <?php  include 'incomeReport.php'; ?>
     <?php  include 'medicine.php'; ?>
     <?php  include 'settings.php'; ?>
+    <?php  include 'setFeed.php'; ?>
+    <?php  include 'setIncome.php'; ?>
+    <?php  include 'setExpense.php'; ?>
 
 
 </div> <!-- End tab content   -->

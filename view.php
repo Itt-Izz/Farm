@@ -5,7 +5,7 @@
             <h4><strong> Flock</strong></h4>
         </div>
         <div class="col-sm-7"></div>
-        <div class="col-sm-2"><button class="btn btn-primary btn-xs pull-right" id="btn-Flock">Add new Flock</button>
+        <div class="col-sm-2"><button class="btn btn-primary btn-sm pull-right" id="btn-Flock">Add new Flock</button>
         </div>
         <div class="col-sm-1">
             <button class="btn btn-default btn-sm pull-right">Print</button>

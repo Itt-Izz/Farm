@@ -43,8 +43,11 @@
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="glyphicon glyphicon-stats"></i>
                         Reports <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a data-toggle="tab" href="#type"><i class="glyphicon glyphicon-usd"></i> Financial</a></li>
-                        <li><a data-toggle="tab" href="#med"><i class="glyphicon glyphicon-leaf"></i> Production</a>
+                        <li><a data-toggle="tab" href="#finRep"><i class="glyphicon glyphicon-usd"></i> Financial</a>
+                        </li>
+                        <li><a data-toggle="tab" href="#proRep"><i class="glyphicon glyphicon-leaf"></i> Production</a>
+                        </li>
+                        <li><a data-toggle="tab" href="#incRep"><i class="glyphicon glyphicon-gift"></i> Income</a>
                         </li>
                     </ul>
                 </li>
@@ -52,9 +55,21 @@
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="glyphicon glyphicon-cog"></i>
                         Settings <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a data-toggle="tab" href="#type">Types</a></li>
-                        <li><a data-toggle="tab" href="#med">Medicine</a></li>
-                        <li><a data-toggle="tab" href="#set">Details</a></li>
+                        <li><a data-toggle="tab" href="#type"><i class="glyphicon glyphicon-cog btn-xs"></i> Flock
+                                Types</a>
+                        </li>
+                        <li><a data-toggle="tab" href="#med"><i class="glyphicon glyphicon-cog btn-xs"></i> Medicine &
+                                Vaccines</a>
+                        </li>
+                        <li><a data-toggle="tab" href="#setFeed"><i class="glyphicon glyphicon-cog btn-xs"></i> Feed
+                                Types</a>
+                        </li>
+                        <li><a data-toggle="tab" href="#setInc"><i class="glyphicon glyphicon-cog btn-xs"></i> Income
+                                Categories</a>
+                        </li>
+                        <li><a data-toggle="tab" href="#setExp"><i class="glyphicon glyphicon-cog btn-xs"></i> Expense
+                                Categories</a>
+                        </li>
                     </ul>
                 </li>
             </ul>

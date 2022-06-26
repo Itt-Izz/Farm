@@ -5,7 +5,8 @@
             <h4><strong> Production</strong></h4>
         </div>
         <div class="col-sm-8"></div>
-        <div class="col-sm-2"><button class="btn btn-primary btn-xs pull-right" id="btn-Pro">Add new Production</button>
+        <div class="col-sm-2"><button class="btn btn-primary btn-sm pull-right" id="btn-Pro">Add new
+                Production</button>
         </div>
     </div>
     <div class="row col-sm-12">

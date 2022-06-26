@@ -1,8 +1,15 @@
 $(document).ready(function() {
     $('#table_id').DataTable();
     $('#table_flock').DataTable();
+    $('#table_income').DataTable();
+    $('#table_type').DataTable();
 });
 
+
+
+$('.chev').click(function() {
+    $(this).toggleClass("glyphicon-chevron-up glyphicon-chevron-down");
+  });
 
 $("#btn-Pro").click(function() {
     $("#new").hide(1000);
