@@ -19,16 +19,16 @@
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th>Type</th>
-                    <th>Description</th>
+                    <th>Cost per Kg (Ksh)</th>
+                    <th>Brand</th>
                     <th>Action</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Marek</td>
-                    <td>Vaccine</td>
-                    <td>Done on day one</td>
+                    <td>Chick Mash</td>
+                    <td>80</td>
+                    <td>Fugo</td>
                     <td>
                         <button class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-edit"></i></button>
                         <button class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-trash"></i></button>
@@ -36,15 +36,16 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Marek</td>
-                    <td>Vaccine</td>
-                    <td>Done on day one</td>
+                    <td>Starter Crumps</td>
+                    <td>95</td>
+                    <td>Fugo</td>
                     <td>
                         <button class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-edit"></i></button>
                         <button class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-trash"></i></button>
 
                     </td>
                 </tr>
+
             </tbody>
         </table>
     </div>

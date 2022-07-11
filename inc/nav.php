@@ -12,7 +12,6 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav nav-pills">
                 <li class="active"><a data-toggle="tab" href="#home">Dashboard</a></li>
-                <li><a data-toggle="tab" href="#new">Production</a></li>
                 <li><a data-toggle="tab" href="#view">Flock</a></li>
                 <li><a data-toggle="tab" href="#vac">Vaccinations</a></li>
                 <li><a data-toggle="tab" href="#mot">Motality</a></li>
@@ -34,7 +33,6 @@
             <ul class="nav nav-pills nav-stacked ">
                 <li class="active"><a data-toggle="tab" href="#home"><i class="glyphicon glyphicon-tent"></i>
                         Dashboard</a></li>
-                <li><a data-toggle="tab" href="#new"><i class="glyphicon glyphicon-gift"></i> Production</a></li>
                 <li><a data-toggle="tab" href="#view"><i class="glyphicon glyphicon-piggy-bank"></i> Flock</a></li>
                 <li><a data-toggle="tab" href="#vac"><i class="glyphicon glyphicon-new-window"></i> Update</a></li>
                 <li><a data-toggle="tab" href="#inc"><i class="glyphicon glyphicon-briefcase"></i> Income</a></li>
@@ -44,8 +42,6 @@
                         Reports <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a data-toggle="tab" href="#finRep"><i class="glyphicon glyphicon-usd"></i> Financial</a>
-                        </li>
-                        <li><a data-toggle="tab" href="#proRep"><i class="glyphicon glyphicon-leaf"></i> Production</a>
                         </li>
                         <li><a data-toggle="tab" href="#incRep"><i class="glyphicon glyphicon-gift"></i> Income</a>
                         </li>

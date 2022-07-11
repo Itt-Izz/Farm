@@ -1,3 +1,12 @@
+<?php include 'php/DatabaseConnection.php'; ?>
+<?php include 'php/DatabaseFunctions.php';
+        $flock_no = totalFlocks($pdo);
+        $retired = totalRetired($pdo);
+        $flocks = allFlocks($pdo);
+        $types = types($pdo);
+        $now = time();
+    
+?>
 <?php include 'inc/nav.php'; ?>
 <div class="tab-content col-sm-10" id="myhome">
     <div class="container-fluid bg-c">
@@ -19,9 +28,10 @@
             <hr class="b">
         </div>
         <div class="row col-sm-12">
-            <div class="col-sm-3 bl">
-                <h5>Active Flocks</h5>5
-                <h5>Retired Flocks</h5>17
+            <div class="col-sm-3">
+                <h5>Active Flocks</h5><?=$flock_no; ?>
+
+                <h5>Retired Flocks</h5> <?=$retired; ?>
             </div>
             <div class="col-sm-3 bl">
                 <h5>Retiring in next 30days</h5>2
@@ -52,7 +62,6 @@
 
     </div>
 
-    <?php  include 'production.php'; ?>
     <?php  include 'view.php'; ?>
     <?php  include 'vaccine.php'; ?>
     <?php  include 'income.php'; ?>

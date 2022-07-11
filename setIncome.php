@@ -19,16 +19,14 @@
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th>Type</th>
-                    <th>Description</th>
+                    <th>Created on</th>
                     <th>Action</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Marek</td>
-                    <td>Vaccine</td>
-                    <td>Done on day one</td>
+                    <td>Meat</td>
+                    <td>22-06-2022</td>
                     <td>
                         <button class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-edit"></i></button>
                         <button class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-trash"></i></button>
@@ -36,9 +34,8 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Marek</td>
-                    <td>Vaccine</td>
-                    <td>Done on day one</td>
+                    <td>Egg Sales</td>
+                    <td>12-3-2022</td>
                     <td>
                         <button class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-edit"></i></button>
                         <button class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-trash"></i></button>

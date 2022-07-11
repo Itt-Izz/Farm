@@ -12,25 +12,7 @@
     <div class="row col-sm-12">
         <hr class="b">
     </div>
-    <div class="row col-sm-12">
-        <div class="col-sm-2">
-            <button class="btn btn-primary btn-sm"><i class="glyphicon glyphicon-plus">Egg_Collection</i></button>
-        </div>
-        <div class="col-sm-2">
-            <button class="btn btn-primary btn-sm"><i class="glyphicon glyphicon-plus">Feed_Purchase</i></button>
 
-        </div>
-        <div class="col-sm-2">
-            <button class="btn btn-primary btn-sm"><i class="glyphicon glyphicon-plus">Bird_Weight</i></button>
-
-        </div>
-        <div class="col-sm-2">
-            <button class="btn btn-primary btn-sm"><i class="glyphicon glyphicon-plus">Motality</i></button>
-        </div>
-        <div class="col-sm-3">
-            <button class="btn btn-default btn-sm pull-right" id="printP">Print List</button>
-        </div>
-    </div>
     <div class=" row col-sm-12">
         <hr class="b">
     </div>

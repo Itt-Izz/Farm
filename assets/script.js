@@ -38,6 +38,27 @@ $("#floBack").click(function() {
     $("#mainNavbar").show(1000);
     $("#view").show(1000);
 });
+$(".editbtn").click(function() {
+    $("#editModal").modal('show')
+
+    $tr = $(this).closest('tr');
+
+    var data = $tr.children("td").map(function () {
+        return $(this).text();
+    }).get();
+
+    console.log(data);
+
+    $('#id').val(data[0]);
+    $('#no').val(data[1]);
+    $('#dateIn').val(data[2]);
+    $('#type').val(data[3]);
+    $('$stock').val(data[4]);
+    $('#age').val(data[5]);
+    $('#state').val(data[6]);
+
+
+});
 
 
 $('.datepicker').datepicker({
@@ -48,3 +69,5 @@ $('.datepicker').datepicker({
     format: "dd-mm-yyyy",
     showOnFocus: true
 });
+
+//Ajax
